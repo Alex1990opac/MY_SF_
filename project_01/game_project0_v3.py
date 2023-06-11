@@ -4,7 +4,7 @@
 
 import numpy as np
 
-def quessing_the_number(number=np.random.randint(0, 101)) -> int:
+def quessing_the_number(number) -> int:
     """Функция отгадывает загаданное число менее чем за 20 попыток
 
     Args:
@@ -38,6 +38,6 @@ def quessing_the_number(number=np.random.randint(0, 101)) -> int:
 
 if __name__ == '__mane__':
     
-    print(quessing_the_number(number=50))
+    print(quessing_the_number())
             
         
